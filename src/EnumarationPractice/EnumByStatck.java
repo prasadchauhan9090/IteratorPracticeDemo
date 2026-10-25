@@ -1,17 +1,16 @@
 package EnumarationPractice;
 
 import java.util.Enumeration;
+import java.util.Stack;
 import java.util.Vector;
 
-public class EnumarationDemo {
+public class EnumByStatck {
 
+    public static void main(String args[]) {
 
-    public static void main(String args[])
-    {
-
-        Vector<String> v = new Vector<>();
-        v.add("BANANA");
-        v.add("APPLE");
+        Stack<String> v = new Stack<>();
+        v.add("STACKSSSSS");
+        v.add("APPLESSSSSSSSS");
         v.add("MANGO");
         v.add("CHERRY");
         v.add("GRAPS");
@@ -24,11 +23,9 @@ public class EnumarationDemo {
 
         Enumeration e = v.elements();
 
-        while(e.hasMoreElements())
-        {
-            System.out.print(e.nextElement()+"  ");
+        while (e.hasMoreElements()) {
+            System.out.print(e.nextElement() + "  ");
         }
-
 
 
     }
